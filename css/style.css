@@ -1,0 +1,111 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font: sans-serif;
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+	background: #fefefe;
+}
+
+.box {
+	padding: 20px;
+	border: 1px solid #ddd;
+}
+
+.row {
+	display: flex;
+}
+
+.row:not(:last-child) {
+	padding-bottom: 20px;
+}
+
+.row:first-child {
+	padding-top: 20px;
+}
+
+.row .is-multiline {
+	flex-wrap: wrap;
+}
+
+.col {
+	flex: 1;
+}
+
+.col.is-narrow {
+	flex: none;
+}
+
+.col.is-1 {
+	width: 8.333333333%;
+	flex: none;
+}
+
+
+.col.is-2 {	
+	width: 16.666666667%;
+	flex: none;
+}
+
+
+.col.is-3 {
+	width: 25%;
+	flex: none;
+}
+
+
+.col.is-4 {
+	width: 33.333333333%;
+	flex: none;
+}
+
+
+.col.is-5 {
+	width: 41.666666667%;
+	flex: none;	
+}
+
+
+.col.is-6 {
+	width: 50%;
+	flex: none;
+}
+
+
+.col.is-7 {
+	width: 58.333333333%;
+	flex: none;
+}
+
+
+.col.is-8 {
+	width: 66.666666667%;
+	flex: none;	
+}
+
+
+.col.is-9 {
+	width: 75%;
+	flex: none;
+}
+
+
+.col.is-10 {
+	width: 83.333333333%;
+	flex: none;
+}
+
+
+.col.is-11 {
+	width: 91.666666667%;
+	flex: none;	
+}
+
+
+.col.is-12 {
+	width: 100%;
+	flex: none;
+}
